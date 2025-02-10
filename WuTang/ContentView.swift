@@ -159,6 +159,7 @@ struct ContentView: View {
       Image(imageName)
         .resizable()
         .scaledToFit()
+        .animation(.easeIn(duration: 0.3), value: imageName)
     }
   }
   
